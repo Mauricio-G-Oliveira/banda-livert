@@ -3,23 +3,43 @@ node_modules/
 .pnp
 .pnp.js
 
-# Testing
+# Testing & Coverage
 coverage/
 
-# Production
+# Production Build
 dist/
+dist-ssr/
 
-# Misc
+# IDE & Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sublime-workspace
+*.sublime-project
+
+# OS Metadata
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 *.pem
 
-# Local env files
+# Local Environment
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Temporary extraction files
+# Temporary Extraction & Scratch Files
 extracted_pdf_pages/
 assets_members/
+
+# Raw WhatsApp source screenshots & raw presskit in root (kept locally, compiled assets are in public/)
+/WhatsApp Image*.jpeg
+/PRESS KIT*.pdf
